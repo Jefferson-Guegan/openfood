@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/openfood/static/css/main.0679540b.chunk.css",
+    "main.js": "/openfood/static/js/main.4a8f4768.chunk.js",
+    "main.js.map": "/openfood/static/js/main.4a8f4768.chunk.js.map",
+    "runtime-main.js": "/openfood/static/js/runtime-main.a33892da.js",
+    "runtime-main.js.map": "/openfood/static/js/runtime-main.a33892da.js.map",
+    "static/js/2.bf32c2ce.chunk.js": "/openfood/static/js/2.bf32c2ce.chunk.js",
+    "static/js/2.bf32c2ce.chunk.js.map": "/openfood/static/js/2.bf32c2ce.chunk.js.map",
+    "index.html": "/openfood/index.html",
+    "static/css/main.0679540b.chunk.css.map": "/openfood/static/css/main.0679540b.chunk.css.map",
+    "static/js/2.bf32c2ce.chunk.js.LICENSE.txt": "/openfood/static/js/2.bf32c2ce.chunk.js.LICENSE.txt",
+    "static/media/a.80cb677b.png": "/openfood/static/media/a.80cb677b.png",
+    "static/media/c.02cad660.png": "/openfood/static/media/c.02cad660.png",
+    "static/media/d.8b2ce43d.png": "/openfood/static/media/d.8b2ce43d.png",
+    "static/media/e.d8832bb6.png": "/openfood/static/media/e.d8832bb6.png",
+    "static/media/index.css": "/openfood/static/media/vegetables.3cff1570.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a33892da.js",
+    "static/js/2.bf32c2ce.chunk.js",
+    "static/css/main.0679540b.chunk.css",
+    "static/js/main.4a8f4768.chunk.js"
+  ]
+}
