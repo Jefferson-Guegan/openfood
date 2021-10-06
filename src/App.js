@@ -5,7 +5,7 @@ import Product from './pages/Product';
 function App() {
   return (
     <Switch>
-      <Route exact path="/" component={Home}/>
+      <Route path="/openfood/" component={Home}/>
       <Route path="/product/:datacode" component={Product}/>
     </Switch>
   );
