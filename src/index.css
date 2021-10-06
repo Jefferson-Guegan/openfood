@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+:root {
+  --primary-light: #e5d8d0;
+  --primary-dark: #2c2c2c;
+  --primary-green: #6B8E23;
+  --secondary-green: #556B2F;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-light);
+}
+
+/* HOME */
+
+.homeSection{
+  position:relative;
+  background: linear-gradient(
+    rgba(0,0,0,0.45),
+    rgba(0,0,0,0.45)
+  ),url(./img/vegetables.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.homeContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeSection h1{
+  color: var(--primary-light);
+  margin-top:0;
+  padding-top: 10%;
+  font-size: 4rem;
+}
+
+.homeSection input {
+  border-radius: 12px;
+  border: 2px var(--primary-light);
+  color: var(--primary-dark);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.homeSection button {
+  margin: 5px;
+  padding: 5px;
+  background-color:var(--primary-green);
+  color: var(--primary-light);
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .homeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homeSection h1 {
+    font-size: 2rem;
+    padding-top: 0;
+  }
+}
+
+
+/* PRODUCT */
+
+.productSection {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  color: var(--secondary-green);
+  text-align: left;
+}
+
+.productContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.productSection h1{
+  margin:0;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  width: 25%;;
+}
+
+.productSection img {
+  width: 25%;
+  margin: 2px;
+}
+
+@media (max-width: 768px) {
+  .productSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .productSection h1 {
+    font-size: 2rem;
+    padding-top: 0;
+  }
 }
